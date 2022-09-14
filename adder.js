@@ -1,7 +1,7 @@
 const box = document.querySelector(".container");
 
 const getCats = function() {
-    fetch("http://sb-cats.herokuapp.com/api/2/pasha2004/show")
+    fetch("https://sb-cats.herokuapp.com/api/2/pasha2004/show")
         .then(res => res.json())
         .then(data => {
             console.log(data);
